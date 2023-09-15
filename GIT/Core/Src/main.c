@@ -96,8 +96,6 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  led_setBlink(LED_NUM_1, BLINK_DISABLE);
-
 	  led_processBlink();
     /* USER CODE END WHILE */
 
